@@ -142,7 +142,7 @@ text-align: justify;
     align-items: center;
     border: 2px solid #0077d5;
     border-radius: 50px;
-    font-size: 36px;
+    font-size: 50px;
     padding: 15px 0;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -167,7 +167,139 @@ text-align: justify;
     left: 100%;
 }
 
-.botao2 i {
+.botao3 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.botao3 {
+    background-color: #000;
+    color: #ffffff;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #ff5500);
+    transition: 0.5s;
+}
+
+.botao3:hover::before {
+    left: 100%;
+}
+
+.botao3 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.botao4 {
+    background-color: #000;
+    color: #0077d5;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0077d5;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #ff5500);
+    transition: 0.5s;
+}
+
+.botao4:hover::before {
+    left: 100%;
+}
+
+.botao4 i {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+}
+
+.botao5 {
+    background-color: #000;
+    color: #0077d5;
+    width: 500px;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #0077d5;
+    border-radius: 50px;
+    font-size: 36px;
+    padding: 15px 0;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+}
+
+.botao5::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, #ff5500);
+    transition: 0.5s;
+}
+
+.botao5:hover::before {
+    left: 100%;
+}
+
+.botao5 i {
     position: absolute;
     left: 50%;
     top: 50%;
